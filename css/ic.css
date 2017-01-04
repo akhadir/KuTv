@@ -18,12 +18,23 @@ header {
   margin: 0;
   height: 45px;
 }
-header .l-icon span {
-  width: 20px;
-  height: 20px;
+header a, header a:visited, header a:focus{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+header .l-icon a {
+  padding: 10px 0 10px 15px;
+}
+
+header .r-icon a {
+  padding: 10px 15px 10px 0;
+}
+header .r-icon {
+  text-align: right;
 }
 header .title {
-  margin: 0 auto;
+  margin: 4px auto;
   text-align: center;
   line-height: 2rem;
 }
@@ -35,9 +46,7 @@ header div {
 }
 .search input[type='text'] {
   width: 100%;
-  height: 40px;
-  padding: 2px;
 }
-.search label:nth-child(2) input[type='radio'] {
+/*.search label:nth-child(2) input[type='radio'] {
   margin-left: 15px
-
+}*/
